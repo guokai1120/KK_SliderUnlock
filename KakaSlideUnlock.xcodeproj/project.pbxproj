@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2228E3BA1E543AB700811D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3B91E543AB700811D14 /* main.m */; };
+		2228E3BD1E543AB700811D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3BC1E543AB700811D14 /* AppDelegate.m */; };
+		2228E3C01E543AB700811D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3BF1E543AB700811D14 /* ViewController.m */; };
+		2228E3C31E543AB700811D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3C11E543AB700811D14 /* Main.storyboard */; };
+		2228E3C51E543AB700811D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3C41E543AB700811D14 /* Assets.xcassets */; };
+		2228E3C81E543AB700811D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3C61E543AB700811D14 /* LaunchScreen.storyboard */; };
+		2228E3D31E543AB700811D14 /* KakaSlideUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3D21E543AB700811D14 /* KakaSlideUnlockTests.m */; };
+		2228E3DE1E543AB700811D14 /* KakaSlideUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3DD1E543AB700811D14 /* KakaSlideUnlockUITests.m */; };
+		2228E3EE1E543B5500811D14 /* KakaLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3ED1E543B5500811D14 /* KakaLockView.m */; };
+		2228E3F21E543C3800811D14 /* KakaLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3F11E543C3800811D14 /* KakaLockViewController.m */; };
+		2228E3F51E543C5400811D14 /* KakaSetLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3F41E543C5400811D14 /* KakaSetLockViewController.m */; };
+		2228E40A1E543CA900811D14 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3FA1E543CA900811D14 /* FBShimmeringLayer.m */; };
+		2228E40B1E543CA900811D14 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3FC1E543CA900811D14 /* FBShimmeringView.m */; };
+		2228E40C1E543CA900811D14 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3FD1E543CA900811D14 /* LICENSE */; };
+		2228E40D1E543CA900811D14 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3FE1E543CA900811D14 /* README.md */; };
+		2228E4101E543CA900811D14 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E4041E543CA900811D14 /* MMMaterialDesignSpinner.m */; };
+		2228E4111E543CA900811D14 /* WSIndefiniteAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E4061E543CA900811D14 /* WSIndefiniteAnimationView.m */; };
+		2228E4121E543CA900811D14 /* WSProgressBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2228E4071E543CA900811D14 /* WSProgressBundle.bundle */; };
+		2228E4131E543CA900811D14 /* WSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E4091E543CA900811D14 /* WSProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2228E3CF1E543AB700811D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2228E3AD1E543AB700811D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2228E3B41E543AB700811D14;
+			remoteInfo = KakaSlideUnlock;
+		};
+		2228E3DA1E543AB700811D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2228E3AD1E543AB700811D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2228E3B41E543AB700811D14;
+			remoteInfo = KakaSlideUnlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2228E3B51E543AB700811D14 /* KakaSlideUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaSlideUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E3B91E543AB700811D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2228E3BB1E543AB700811D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2228E3BC1E543AB700811D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2228E3BE1E543AB700811D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2228E3BF1E543AB700811D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2228E3C21E543AB700811D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2228E3C41E543AB700811D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2228E3C71E543AB700811D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2228E3C91E543AB700811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E3CE1E543AB700811D14 /* KakaSlideUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaSlideUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E3D21E543AB700811D14 /* KakaSlideUnlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaSlideUnlockTests.m; sourceTree = "<group>"; };
+		2228E3D41E543AB700811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E3D91E543AB700811D14 /* KakaSlideUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaSlideUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E3DD1E543AB700811D14 /* KakaSlideUnlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaSlideUnlockUITests.m; sourceTree = "<group>"; };
+		2228E3DF1E543AB700811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E3EC1E543B5500811D14 /* KakaLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KakaLockView.h; path = LockView/KakaLockView.h; sourceTree = "<group>"; };
+		2228E3ED1E543B5500811D14 /* KakaLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KakaLockView.m; path = LockView/KakaLockView.m; sourceTree = "<group>"; };
+		2228E3F01E543C3800811D14 /* KakaLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KakaLockViewController.h; path = Controller/KakaLockViewController.h; sourceTree = "<group>"; };
+		2228E3F11E543C3800811D14 /* KakaLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KakaLockViewController.m; path = Controller/KakaLockViewController.m; sourceTree = "<group>"; };
+		2228E3F31E543C5400811D14 /* KakaSetLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KakaSetLockViewController.h; path = Controller/KakaSetLockViewController.h; sourceTree = "<group>"; };
+		2228E3F41E543C5400811D14 /* KakaSetLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KakaSetLockViewController.m; path = Controller/KakaSetLockViewController.m; sourceTree = "<group>"; };
+		2228E3F81E543CA900811D14 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		2228E3F91E543CA900811D14 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		2228E3FA1E543CA900811D14 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		2228E3FB1E543CA900811D14 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		2228E3FC1E543CA900811D14 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		2228E3FD1E543CA900811D14 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2228E3FE1E543CA900811D14 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2228E4031E543CA900811D14 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		2228E4041E543CA900811D14 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		2228E4051E543CA900811D14 /* WSIndefiniteAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIndefiniteAnimationView.h; sourceTree = "<group>"; };
+		2228E4061E543CA900811D14 /* WSIndefiniteAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIndefiniteAnimationView.m; sourceTree = "<group>"; };
+		2228E4071E543CA900811D14 /* WSProgressBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WSProgressBundle.bundle; sourceTree = "<group>"; };
+		2228E4081E543CA900811D14 /* WSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProgressHUD.h; sourceTree = "<group>"; };
+		2228E4091E543CA900811D14 /* WSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2228E3B21E543AB700811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3CB1E543AB700811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3D61E543AB700811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2228E3AC1E543AB700811D14 = {
+			isa = PBXGroup;
+			children = (
+				2228E3B71E543AB700811D14 /* KakaSlideUnlock */,
+				2228E3D11E543AB700811D14 /* KakaSlideUnlockTests */,
+				2228E3DC1E543AB700811D14 /* KakaSlideUnlockUITests */,
+				2228E3B61E543AB700811D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2228E3B61E543AB700811D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3B51E543AB700811D14 /* KakaSlideUnlock.app */,
+				2228E3CE1E543AB700811D14 /* KakaSlideUnlockTests.xctest */,
+				2228E3D91E543AB700811D14 /* KakaSlideUnlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2228E3B71E543AB700811D14 /* KakaSlideUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3EF1E543C1000811D14 /* Controller */,
+				2228E3EB1E543B2900811D14 /* LockView */,
+				2228E3BB1E543AB700811D14 /* AppDelegate.h */,
+				2228E3BC1E543AB700811D14 /* AppDelegate.m */,
+				2228E3BE1E543AB700811D14 /* ViewController.h */,
+				2228E3BF1E543AB700811D14 /* ViewController.m */,
+				2228E3C11E543AB700811D14 /* Main.storyboard */,
+				2228E3C41E543AB700811D14 /* Assets.xcassets */,
+				2228E3C61E543AB700811D14 /* LaunchScreen.storyboard */,
+				2228E3C91E543AB700811D14 /* Info.plist */,
+				2228E3B81E543AB700811D14 /* Supporting Files */,
+			);
+			path = KakaSlideUnlock;
+			sourceTree = "<group>";
+		};
+		2228E3B81E543AB700811D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3B91E543AB700811D14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2228E3D11E543AB700811D14 /* KakaSlideUnlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3D21E543AB700811D14 /* KakaSlideUnlockTests.m */,
+				2228E3D41E543AB700811D14 /* Info.plist */,
+			);
+			path = KakaSlideUnlockTests;
+			sourceTree = "<group>";
+		};
+		2228E3DC1E543AB700811D14 /* KakaSlideUnlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3DD1E543AB700811D14 /* KakaSlideUnlockUITests.m */,
+				2228E3DF1E543AB700811D14 /* Info.plist */,
+			);
+			path = KakaSlideUnlockUITests;
+			sourceTree = "<group>";
+		};
+		2228E3EB1E543B2900811D14 /* LockView */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3F61E543CA800811D14 /* Shimmer */,
+				2228E3FF1E543CA900811D14 /* WSProgressHUD */,
+				2228E3EC1E543B5500811D14 /* KakaLockView.h */,
+				2228E3ED1E543B5500811D14 /* KakaLockView.m */,
+			);
+			name = LockView;
+			sourceTree = "<group>";
+		};
+		2228E3EF1E543C1000811D14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3F01E543C3800811D14 /* KakaLockViewController.h */,
+				2228E3F11E543C3800811D14 /* KakaLockViewController.m */,
+				2228E3F31E543C5400811D14 /* KakaSetLockViewController.h */,
+				2228E3F41E543C5400811D14 /* KakaSetLockViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2228E3F61E543CA800811D14 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3F71E543CA900811D14 /* FBShimmering */,
+				2228E3FD1E543CA900811D14 /* LICENSE */,
+				2228E3FE1E543CA900811D14 /* README.md */,
+			);
+			name = Shimmer;
+			path = LockView/Shimmer;
+			sourceTree = "<group>";
+		};
+		2228E3F71E543CA900811D14 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3F81E543CA900811D14 /* FBShimmering.h */,
+				2228E3F91E543CA900811D14 /* FBShimmeringLayer.h */,
+				2228E3FA1E543CA900811D14 /* FBShimmeringLayer.m */,
+				2228E3FB1E543CA900811D14 /* FBShimmeringView.h */,
+				2228E3FC1E543CA900811D14 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
+		2228E3FF1E543CA900811D14 /* WSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2228E4021E543CA900811D14 /* WSProgressHUD */,
+			);
+			name = WSProgressHUD;
+			path = LockView/WSProgressHUD;
+			sourceTree = "<group>";
+		};
+		2228E4021E543CA900811D14 /* WSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2228E4031E543CA900811D14 /* MMMaterialDesignSpinner.h */,
+				2228E4041E543CA900811D14 /* MMMaterialDesignSpinner.m */,
+				2228E4051E543CA900811D14 /* WSIndefiniteAnimationView.h */,
+				2228E4061E543CA900811D14 /* WSIndefiniteAnimationView.m */,
+				2228E4071E543CA900811D14 /* WSProgressBundle.bundle */,
+				2228E4081E543CA900811D14 /* WSProgressHUD.h */,
+				2228E4091E543CA900811D14 /* WSProgressHUD.m */,
+			);
+			path = WSProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2228E3B41E543AB700811D14 /* KakaSlideUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E3E21E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlock" */;
+			buildPhases = (
+				2228E3B11E543AB700811D14 /* Sources */,
+				2228E3B21E543AB700811D14 /* Frameworks */,
+				2228E3B31E543AB700811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaSlideUnlock;
+			productName = KakaSlideUnlock;
+			productReference = 2228E3B51E543AB700811D14 /* KakaSlideUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2228E3CD1E543AB700811D14 /* KakaSlideUnlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E3E51E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlockTests" */;
+			buildPhases = (
+				2228E3CA1E543AB700811D14 /* Sources */,
+				2228E3CB1E543AB700811D14 /* Frameworks */,
+				2228E3CC1E543AB700811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2228E3D01E543AB700811D14 /* PBXTargetDependency */,
+			);
+			name = KakaSlideUnlockTests;
+			productName = KakaSlideUnlockTests;
+			productReference = 2228E3CE1E543AB700811D14 /* KakaSlideUnlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2228E3D81E543AB700811D14 /* KakaSlideUnlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E3E81E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlockUITests" */;
+			buildPhases = (
+				2228E3D51E543AB700811D14 /* Sources */,
+				2228E3D61E543AB700811D14 /* Frameworks */,
+				2228E3D71E543AB700811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2228E3DB1E543AB700811D14 /* PBXTargetDependency */,
+			);
+			name = KakaSlideUnlockUITests;
+			productName = KakaSlideUnlockUITests;
+			productReference = 2228E3D91E543AB700811D14 /* KakaSlideUnlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2228E3AD1E543AB700811D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kaka;
+				TargetAttributes = {
+					2228E3B41E543AB700811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+					};
+					2228E3CD1E543AB700811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2228E3B41E543AB700811D14;
+					};
+					2228E3D81E543AB700811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2228E3B41E543AB700811D14;
+					};
+				};
+			};
+			buildConfigurationList = 2228E3B01E543AB700811D14 /* Build configuration list for PBXProject "KakaSlideUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2228E3AC1E543AB700811D14;
+			productRefGroup = 2228E3B61E543AB700811D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2228E3B41E543AB700811D14 /* KakaSlideUnlock */,
+				2228E3CD1E543AB700811D14 /* KakaSlideUnlockTests */,
+				2228E3D81E543AB700811D14 /* KakaSlideUnlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2228E3B31E543AB700811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E4121E543CA900811D14 /* WSProgressBundle.bundle in Resources */,
+				2228E3C81E543AB700811D14 /* LaunchScreen.storyboard in Resources */,
+				2228E3C51E543AB700811D14 /* Assets.xcassets in Resources */,
+				2228E40C1E543CA900811D14 /* LICENSE in Resources */,
+				2228E3C31E543AB700811D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3CC1E543AB700811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3D71E543AB700811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2228E3B11E543AB700811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E3F51E543C5400811D14 /* KakaSetLockViewController.m in Sources */,
+				2228E3C01E543AB700811D14 /* ViewController.m in Sources */,
+				2228E3F21E543C3800811D14 /* KakaLockViewController.m in Sources */,
+				2228E40B1E543CA900811D14 /* FBShimmeringView.m in Sources */,
+				2228E3EE1E543B5500811D14 /* KakaLockView.m in Sources */,
+				2228E40A1E543CA900811D14 /* FBShimmeringLayer.m in Sources */,
+				2228E4101E543CA900811D14 /* MMMaterialDesignSpinner.m in Sources */,
+				2228E40D1E543CA900811D14 /* README.md in Sources */,
+				2228E3BD1E543AB700811D14 /* AppDelegate.m in Sources */,
+				2228E4111E543CA900811D14 /* WSIndefiniteAnimationView.m in Sources */,
+				2228E4131E543CA900811D14 /* WSProgressHUD.m in Sources */,
+				2228E3BA1E543AB700811D14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3CA1E543AB700811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E3D31E543AB700811D14 /* KakaSlideUnlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3D51E543AB700811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E3DE1E543AB700811D14 /* KakaSlideUnlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2228E3D01E543AB700811D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2228E3B41E543AB700811D14 /* KakaSlideUnlock */;
+			targetProxy = 2228E3CF1E543AB700811D14 /* PBXContainerItemProxy */;
+		};
+		2228E3DB1E543AB700811D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2228E3B41E543AB700811D14 /* KakaSlideUnlock */;
+			targetProxy = 2228E3DA1E543AB700811D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2228E3C11E543AB700811D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2228E3C21E543AB700811D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2228E3C61E543AB700811D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2228E3C71E543AB700811D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2228E3E01E543AB700811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2228E3E11E543AB700811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2228E3E31E543AB700811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2228E3E41E543AB700811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2228E3E61E543AB700811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaSlideUnlock.app/KakaSlideUnlock";
+			};
+			name = Debug;
+		};
+		2228E3E71E543AB700811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaSlideUnlock.app/KakaSlideUnlock";
+			};
+			name = Release;
+		};
+		2228E3E91E543AB700811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KakaSlideUnlock;
+			};
+			name = Debug;
+		};
+		2228E3EA1E543AB700811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaSlideUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaSlideUnlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KakaSlideUnlock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2228E3B01E543AB700811D14 /* Build configuration list for PBXProject "KakaSlideUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3E01E543AB700811D14 /* Debug */,
+				2228E3E11E543AB700811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2228E3E21E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3E31E543AB700811D14 /* Debug */,
+				2228E3E41E543AB700811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228E3E51E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3E61E543AB700811D14 /* Debug */,
+				2228E3E71E543AB700811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228E3E81E543AB700811D14 /* Build configuration list for PBXNativeTarget "KakaSlideUnlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3E91E543AB700811D14 /* Debug */,
+				2228E3EA1E543AB700811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2228E3AD1E543AB700811D14 /* Project object */;
+}
